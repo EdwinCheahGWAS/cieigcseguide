@@ -5,7 +5,7 @@
 }
 
 
-header{
+.home{
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://xcledu.com/wp-content/uploads/overlay-school-gems-placeholder-m.jpg);
   height: 100vh;
   background-size: cover;
