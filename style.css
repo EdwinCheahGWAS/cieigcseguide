@@ -102,7 +102,7 @@ ul li.active a{
   top: 60%;
   left: 50%;
   transform: translate(-50%,-50%);
-  color: #26a0db;
+  color: #000;
   font-size: 22px;
   width: 1000px;
   font-family: Century Gothic;
