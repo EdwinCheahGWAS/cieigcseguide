@@ -103,7 +103,7 @@ body::after
   padding: 8px 20px;
   margin-top: 15px;
   background: #fff;
-  color: #26a0df;
+  color: #00214d;
   border-radius: 20px;
   text-decoration: none;
   font-weight: 600;
@@ -136,7 +136,7 @@ ul li a{
 
 ul li a:hover{
   background-color: #fff;
-  color: #26a0db;
+  color: #00214d;
   transition: 0.5s ease;
 }
 
@@ -147,7 +147,7 @@ ul li a:hover{
 
 ul li.active a{
   background-color: #fff;
-  color: #26a0db;
+  color: #00214d;
 }
 
 .title{
@@ -191,7 +191,7 @@ ul li.active a{
 
 .btn:hover{
   background-color: #fff;
-  color: #26a0db;
+  color: #00214d;
   transition: 0.5s ease;
 }
 
