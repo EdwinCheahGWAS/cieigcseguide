@@ -45,11 +45,6 @@ ul li.active a{
   color: #26a0db;
 }
 
-.main{
-  max-width: 1200px;
-  margin: auto;
-}
-
 .title{
   position: absolute;
   top: 50%;
