@@ -96,3 +96,12 @@ ul li.active a{
   color: #26a0db;
   transition: 0.5s ease;
 }
+
+.body{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #26a0db;
+  font-size: 25px;
+}
