@@ -99,7 +99,7 @@ ul li.active a{
   transition: 0.5s ease;
 }
 
-.body{
+.text{
   position: absolute;
   top: 60%;
   left: 50%;
