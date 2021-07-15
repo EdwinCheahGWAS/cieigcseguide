@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <title>Cambridge IGCSE Guide</title>
   <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
-<body>
-  <header class="home">
+<div>
+  <body>
+  <header class="homebg">
     <div class="main">
      <ul>
        <li class="active"><a href="#">Home</a></li>
@@ -17,10 +19,46 @@
     <div class="title">
       <h1>CIE IGCSE GUIDE</h1>
     </div>
-    <div class="button">
-      <a href="https://cieigcseguide.vercel.app/notes.html" class="btn">Revision Notes</a>
-      <a href="#" class="btn">Study Tips</a>
+    </header>
+    <div class="tabs">
+      <div class="container">
+        <div class="card">
+          <div class="content">
+             <h3>CIE Notes</h3>
+             <p class="first">Revise with condensed and udnerstandable notes on subjects in the Cambridge IGCSE program!</p>
+             <a href="https://cieigcseguide.vercel.app/notes.html">Study now!</a>
+          </div>
+        </div> 
+    <div class="container">
+        <div class="card">
+          <div class="content">
+             <h3>Study Notes</h3>
+             <p class="third">Learn how to use your time efficiently and many ways to learn quickly without wasting time!</p>
+             <a href="https://cieigcseguide.vercel.app/notes.html">Yes sir!</a>
+          </div>
+        </div> 
+     <div class="container">
+        <div class="card">
+          <div class="content">
+             <h3>About Page</h3>
+             <p>Learn about the student who started this initiative in a great mission to help others learn better!</p>
+             <a href="https://cieigcseguide.vercel.app/notes.html">Say Hi!</a>
+          </div>
+        </div> 
+      </div>
+      </div>
+     </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelector(".card"), {
+		max: 25,
+		speed: 400,
+    glare: true
+    "max-glare": 1,
+	});
+    </script>
+     </div>
+      </body>
     </div>
-  </header>
-</body>
+
 </html>
