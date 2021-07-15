@@ -13,7 +13,7 @@
 }
 
 .notes{
-background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://www.mrflemingscience.com/uploads/5/7/1/1/57111759/paper-airplanes-shutterstock-43792207-800x460_orig.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://www.mrflemingscience.com/uploads/5/7/1/1/57111759/paper-airplanes-shutterstock-43792207-800x460_orig.jpg);
   height: 40vh;
   background-size: cover;
   background-position: center;
@@ -60,6 +60,18 @@ ul li.active a{
 }
 
 .title h1{
+  color: #fff;
+  font-size: 65px;
+}
+
+.subheading{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.subheading h1{
   color: #fff;
   font-size: 65px;
 }
