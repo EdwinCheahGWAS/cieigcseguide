@@ -3,15 +3,111 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 
 
-.home{
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://xcledu.com/wp-content/uploads/overlay-school-gems-placeholder-m.jpg);
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
+.tabs{
+  height: 140vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  background: #00214d;
+  width: 100%;
+  height: 100%;
+}
+
+body::before
+{
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#c33764, #1d2671);
+  clip-path: circle(30% at right 70%);
+}
+
+body::after
+{
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#cc0033, #660099);
+  clip-path: circle(20% at 10% 10%);
+}
+
+.container{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  flex-wrap: nowrap;
+  z-index: 1;
+}
+
+.container .card {
+  position: relative;
+  width: 280px;
+  height: 360px;
+  margin: 30px;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  border-radius: 15px;
+  background: rgba(225,225,225,0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(225,225,225,0.1);
+  border-left: 1px solid rgba(225,225,225,0.1);
+  backdrop-filter: blur(5px);
+}
+
+.container .card .content{
+  padding: 20px;
+  text-align: center;
+  transform: translateY(70px);
+  opacity: 0.3;
+  transition: 0.5s
+}
+
+.container .card:hover .content{
+  transform: translateY(10px);
+  opacity: 1;
+}
+.container .card .content h3{
+  font-size: 1.8em;
+  color: #fff;
+  z-index: 1;
+}
+
+.container .card .content p{
+  font-size: 1em;
+  color: #fff;
+  font-weight: 400;
+}
+
+.container .card .content a{
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: 15px;
+  background: #fff;
+  color: #26a0df;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4)
 }
 
 .notes{
@@ -56,7 +152,7 @@ ul li.active a{
 
 .title{
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
@@ -98,6 +194,7 @@ ul li.active a{
   color: #26a0db;
   transition: 0.5s ease;
 }
+
 
 .text{
   position: absolute;
