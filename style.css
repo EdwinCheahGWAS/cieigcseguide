@@ -142,6 +142,7 @@ ul{
   float: right;
   list-style-type: none;
   margin-top: 30px;
+  margin-right:20px;
 }
 ul li{
   display: inline-block;
