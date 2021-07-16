@@ -206,3 +206,11 @@ ul li.active a{
   width: 1000px;
   font-family: 'Poppins', sans-serif;
 }
+
+.first{
+  margin-left: 280px;
+}
+
+.third{
+  margin-right: 280px;
+}
