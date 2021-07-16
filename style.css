@@ -6,6 +6,26 @@
   font-family: 'Poppins', sans-serif;
 }
 
+:root{
+  --firstgradient: linear-gradient(
+    45deg,
+    #6dd5ed,
+    #ffafbd,
+    #753a88,
+    #dc2430,
+    #36d1dc
+    );
+  
+  --secondgradient: linear-gradient(
+  45deg,
+  #1d2671,
+  #c33764,
+  #ff7e5f,
+  #ed4264,
+  #4e4376
+  );
+}
+
 .tabs{
   height: 120vh;
   width: 100%;
@@ -26,7 +46,9 @@ body::before
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(#c33764, #1d2671);
+  background: var(--secondgradient);
+  background-size: 400%;
+  animation: bg-animation 20s infinite alternate;
   clip-path: circle(30% at right 70%);
 }
 body::after
@@ -37,9 +59,17 @@ body::after
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(#cc0033, #660099);
+  background: var(--firstgradient);
+  background-size: 400%;
+  animation: bg-animation 20s infinite alternate;
   clip-path: circle(20% at 10% 10%);
 }
+
+@keyframes bg-animation{
+  0% {background-position: left}
+  100% {background-position: right;}
+}
+
 .container{
   position: relative;
   display: flex;
