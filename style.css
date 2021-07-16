@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
 *{
   margin: 0;
   padding: 0;
@@ -7,21 +6,18 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
 .tabs{
-  height: 140vh; 
+  height: 130vh; 
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 body{
   background: #00214d;
   width: 100%;
   height: 100%;
 }
-
 body::before
 {
   content:'';
@@ -33,7 +29,6 @@ body::before
   background: linear-gradient(#c33764, #1d2671);
   clip-path: circle(30% at right 70%);
 }
-
 body::after
 {
   content:'';
@@ -45,7 +40,6 @@ body::after
   background: linear-gradient(#cc0033, #660099);
   clip-path: circle(20% at 10% 10%);
 }
-
 .container{
   position: relative;
   display: flex;
@@ -74,7 +68,6 @@ body::after
   border-left: 1px solid rgba(225,225,225,0.1);
   backdrop-filter: blur(5px);
 }
-
 .container .card .content{
   padding: 20px;
   text-align: center;
@@ -82,7 +75,6 @@ body::after
   opacity: 0.3;
   transition: 0.5s
 }
-
 .container .card:hover .content{
   transform: translateY(10px);
   opacity: 1;
@@ -92,13 +84,11 @@ body::after
   color: #fff;
   z-index: 1;
 }
-
 .container .card .content p{
   font-size: 1em;
   color: #fff;
   font-weight: 400;
 }
-
 .container .card .content a{
   position: relative;
   display: inline-block;
@@ -111,78 +101,65 @@ body::after
   font-weight: 600;
   box-shadow: 0 10px 30px rgba(0,0,0,0.4)
 }
-
 .notes{
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://www.mrflemingscience.com/uploads/5/7/1/1/57111759/paper-airplanes-shutterstock-43792207-800x460_orig.jpg);
   height: 40vh;
   background-size: cover;
   background-position: center;
 }
-
 ul{
   float: right;
   list-style-type: none;
   margin-top: 30px;
 }
-
 ul li{
   display: inline-block;
 }
-
 ul li a{
   text-decoration: none;
   color: #fff;
   padding: 10px 40px;
   border: 1px solid transparent;
 }
-
 ul li a:hover{
   background-color: #fff;
   color: #00214d;
   transition: 0.5s ease;
 }
-
 .main{
   max-width: 1500px;
   margin: auto;
 }
-
 ul li.active a{
   background-color: #fff;
   color: #00214d;
 }
-
 .title{
   position: absolute;
   top: 30%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
-
 .title h1{
   color: #fff;
   font-size: 65px;
 }
-
 .subheading{
   position: absolute;
   top: 20%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
-
 .subheading h1{
   color: #fff;
   font-size: 65px;
 }
-
 .button{
   position: absolute;
   top: 65%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
-
 .btn{
   border: 1px solid;
   padding: 10px 30px;
@@ -190,13 +167,11 @@ ul li.active a{
   text-decoration: none;
   transition: 0.5s ease;
 }
-
 .btn:hover{
   background-color: #fff;
   color: #00214d;
   transition: 0.5s ease;
 }
-
 
 .text{
   position: absolute;
