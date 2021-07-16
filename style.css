@@ -7,7 +7,7 @@
 }
 
 .tabs{
-  height: 80%; 
+  top: 80%;
   width: 100%;
   display: flex;
   justify-content: center;
