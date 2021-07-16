@@ -10,6 +10,7 @@
 
 .tabs{
   height: 140vh; 
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,6 +55,7 @@ body::after
   max-width: 1200px;
   flex-wrap: nowrap;
   z-index: 1;
+  margin: auto;
 }
 
 .container .card {
