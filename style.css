@@ -7,7 +7,7 @@
 }
 
 .tabs{
-  height: 100vh; 
+  height: 80%; 
   width: 100%;
   display: flex;
   justify-content: center;
@@ -182,12 +182,4 @@ ul li.active a{
   font-size: 22px;
   width: 1000px;
   font-family: 'Poppins', sans-serif;
-}
-
-.first{
-  margin-left: 280px;
-}
-
-.third{
-  margin-right: 280px;
 }
