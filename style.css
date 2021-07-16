@@ -199,7 +199,7 @@ ul li.active a{
   font-family: 'Poppins', sans-serif;
 }
 
-.logo img{
+.logo{
   float: left;
   width: 150px;
   height: auto;
