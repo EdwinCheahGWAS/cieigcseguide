@@ -16,7 +16,7 @@
       <div class="logo">
 	<img src="./android-chrome-512x512.png" alt="logo">
       </div>
-     <ul>
+     <ul class="menu">
        <li class="active"><a href="#">Home</a></li>
        <li><a href="https://cieigcseguide.vercel.app/notes.html">Notes</a></li>
        <li><a href="#">Study Tips</a></li>
@@ -61,6 +61,14 @@
     <script type="text/javascript" src="./vanilla-tilt.js"></script>
     <script>
       VanillaTilt.init(document.querySelectorAll(".card"), {
+    max: 25,
+    speed: 400,
+    glare: true
+    "max-glare": 1,
+	});
+    </script>  
+<script>
+      VanillaTilt.init(document.querySelectorAll(".menu"), {
     max: 25,
     speed: 400,
     glare: true
