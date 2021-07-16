@@ -120,6 +120,8 @@ ul li a{
   color: #fff;
   padding: 10px 40px;
   border: 1px solid transparent;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4)
 }
 ul li a:hover{
   background-color: #fff;
@@ -153,24 +155,6 @@ ul li.active a{
 .subheading h1{
   color: #fff;
   font-size: 65px;
-}
-.button{
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-.btn{
-  border: 1px solid;
-  padding: 10px 30px;
-  color: #fff;
-  text-decoration: none;
-  transition: 0.5s ease;
-}
-.btn:hover{
-  background-color: #fff;
-  color: #00214d;
-  transition: 0.5s ease;
 }
 
 .text{
