@@ -27,7 +27,7 @@
 }
 
 .tabs{
-  height: 100%;
+  height: 120vh;
   width: 100%;
   display: flex;
   justify-content: center;
