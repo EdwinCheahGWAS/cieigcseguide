@@ -207,4 +207,6 @@ ul li.active a{
   width: 50px;
   height: auto;
   z-index: 1;
+  background: rgba(225,225,225,0.1);
+  overflow: hidden;
 }
