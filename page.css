@@ -46,7 +46,7 @@ body{
 }
 
 .menu li.active a{
-  background: #755bea;
+  background-color: #755bea;
   color: #fff;
 }
 .menu li a:active {
