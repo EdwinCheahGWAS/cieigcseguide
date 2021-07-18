@@ -45,6 +45,10 @@ body{
   margin: auto;
 }
 
+.menu li a .active{
+  background: #755bea;
+  color: #fff;
+}
 .menu li a:active {
   background-color: #fff;
   background-size: 100%;
