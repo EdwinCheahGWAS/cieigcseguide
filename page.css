@@ -17,8 +17,6 @@ body{
   list-style-type: none;
   margin-top: 30px;
   margin-right:20px;
-  background-position: center;
-  transition: background 0.8s;
 }
 .menu li{
   display: inline-block;
@@ -32,6 +30,8 @@ body{
   backdrop-filter: blur(5px);
   background: rgba(225,225,225,0.1);
   overflow: hidden;
+  background-position: center;
+  transition: background 0.8s;
 }
 
 .menu li a:hover{
@@ -43,11 +43,6 @@ body{
 .container{
   max-width: 1500px;
   margin: auto;
-}
-.menu li.active a{
-  background: #755bea;
-  color: #fff;
-  border-radius: 20px;
 }
 
 .menu li a:active {
