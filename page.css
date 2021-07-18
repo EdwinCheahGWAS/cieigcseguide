@@ -45,7 +45,7 @@ body{
   margin: auto;
 }
 
-.menu li a.active{
+.menu li.active a{
   background: #755bea;
   color: #fff;
 }
