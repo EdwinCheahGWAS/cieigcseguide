@@ -45,7 +45,7 @@
 	    btn.addEventListener('click', function(e) {
           
 	      Let x = e.clientX - e.target.offsetLeft;
-              Let y = e.clientY - e.target.offsetLeft;
+              Let y = e.clientY - e.target.offsetTop;
 		  
               Let ripples = document.createElement('span')
 	      ripples.style.left = x + 'px';
