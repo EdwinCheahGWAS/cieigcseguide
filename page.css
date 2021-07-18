@@ -203,8 +203,8 @@ span{
   }
   
   100%{
-    width: 500px;
-    height: 500px;
+    width: 50px;
+    height: 50px;
     opacity: 0;
   }
 }
