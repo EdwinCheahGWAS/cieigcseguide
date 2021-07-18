@@ -39,6 +39,22 @@
 
         Well, there is! Check out this student initiative containing all the information you need to know for the IGCSE exams that go through the content chapter by chapter!</p>
     </div>
+  <script type="text/javascript">
+	  copnst buttons = documentquerySelectorAll('a');
+	  btn.addEventListener('click', function(e) {
+          Let x = e.clientX - e.target.offsetLeft;
+          Let y = e.clientY - e.target.offsetLeft;
+		  
+          Let ripples = document.createElement('span')
+	  ripples.style.left = x + 'px';
+	  ripples.style.top = y + 'px';
+          this.appendChild(ripples);
+		  
+	  setTimeOut(() => {
+		  ripples.remove()
+	  },1000);
+					    
+	    </script>
   </header>
   </body>
 </html>
