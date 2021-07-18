@@ -27,7 +27,6 @@ ul{
   padding: 10px 40px;
   border: 1px solid transparent;
   border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
   backdrop-filter: blur(5px);
   background: rgba(225,225,225,0.1);
   overflow: hidden;
