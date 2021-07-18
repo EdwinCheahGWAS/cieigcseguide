@@ -33,7 +33,7 @@ ul{
   overflow: hidden;
 }
 .menu li a:hover{
-  background-color: #fff;
+  background: #linear-gradient(90deg,#755bea,#ff72c0);
   color: #00214d;
   transition: 0.5s ease;
 }
