@@ -33,7 +33,7 @@ ul{
   overflow: hidden;
 }
 .menu li a:hover{
-  background: #linear-gradient(90deg,#755bea,#ff72c0);
+  background: linear-gradient(90deg,#755bea,#ff72c0);
   color: #fff;
   transition: 0.5s ease;
 }
@@ -42,7 +42,7 @@ ul{
   margin: auto;
 }
 .menu li.active a{
-  background: #linear-gradient(90deg,#755bea,#ff72c0);
+  background: linear-gradient(90deg,#755bea,#ff72c0);
   color: #fff;
 }
 
