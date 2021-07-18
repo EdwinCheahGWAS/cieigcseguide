@@ -50,7 +50,7 @@ body{
   border-radius: 20px;
 }
 
-.menu:active {
+.menu li a:active {
   background-color: #fff;
   background-size: 100%;
   transition: background 0s;
