@@ -12,11 +12,13 @@ body{
   height: 100%;
 }
 
-ul{
+.menu{
   float: right;
   list-style-type: none;
   margin-top: 30px;
   margin-right:20px;
+  background-position: center;
+  transition: background 0.8s;
 }
 .menu li{
   display: inline-block;
@@ -31,20 +33,24 @@ ul{
   background: rgba(225,225,225,0.1);
   overflow: hidden;
 }
-.menu li a:hover{
-  background: linear-gradient(45deg,#755bea,#ff72c0);
-  color: #fff;
-  transition: 0.5s ease;
-  border-radius: 20px;
-}
+
 .container{
   max-width: 1500px;
   margin: auto;
 }
 .menu li.active a{
-  background: linear-gradient(45deg,#755bea,#ff72c0);
+  background: #755bea;
   color: #fff;
   border-radius: 20px;
+}
+
+.menu:hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #755bea 1%) center/15000%;
+}
+.ripple:active {
+  background-color: #fff;
+  background-size: 100%;
+  transition: background 0s;
 }
 
 .subheading{
@@ -187,29 +193,3 @@ ul{
     transform: translateY(-1000px) rotate(720deg);
   }
 }
-
-span{
-  position: absolute;
-  background: #fff;
-  transform: translate(-50%,-50%);
-  pointer-events: none;
-  border-radius: 50%;
-  animation: animate 1s linear infinite;
-}
-
-@keyframes animate
-{
-  0%
-  {
-    width: 0px;
-    height: 0px;
-    opacity: 0.5;
-  }
-  100%
-  {
-    width: 500px;
-    height: 500px;
-    opacity: 0;
-  }
-}
-  
