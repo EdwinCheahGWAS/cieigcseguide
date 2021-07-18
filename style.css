@@ -132,12 +132,7 @@ body::after
   font-weight: 600;
   box-shadow: 0 10px 30px rgba(0,0,0,0.4)
 }
-.notes{
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://www.mrflemingscience.com/uploads/5/7/1/1/57111759/paper-airplanes-shutterstock-43792207-800x460_orig.jpg);
-  height: 40vh;
-  background-size: cover;
-  background-position: center;
-}
+
 ul{
   float: right;
   list-style-type: none;
