@@ -54,6 +54,10 @@ ul li.active a{
   transform: translate(-50%,-50%);
 }
 
+.subheading h1{
+  color: #fff;
+  font-size: 65px;
+}
 
 .text{
   position: absolute;
