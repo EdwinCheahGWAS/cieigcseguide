@@ -34,7 +34,7 @@ ul{
 }
 .menu li a:hover{
   background: #linear-gradient(90deg,#755bea,#ff72c0);
-  color: #00214d;
+  color: #fff;
   transition: 0.5s ease;
 }
 .container{
@@ -42,8 +42,8 @@ ul{
   margin: auto;
 }
 .menu li.active a{
-  background-color: #fff;
-  color: #00214d;
+  background: #linear-gradient(90deg,#755bea,#ff72c0);
+  color: #fff;
 }
 
 .subheading{
