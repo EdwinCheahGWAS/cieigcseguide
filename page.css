@@ -94,7 +94,7 @@ ul{
   width: 20px;
   height: 20px;
   border-radius: 70%;
-  animation: animate 25s linear infinite;
+  animation: float 25s linear infinite;
   bottom: -150px;
 }
 
@@ -176,7 +176,7 @@ ul{
   animation-duration: 12s;
 }
 
-@keyframes animate{
+@keyframes float{
   0%{
     transform: translateY(0) rotate(0deg);
   }
@@ -185,3 +185,26 @@ ul{
     transform: translateY(-1000px) rotate(720deg);
   }
 }
+
+span{
+  position: absolute;
+  background: #fff;
+  pointer-events: none;
+  border-radius: 50%;
+  animation: ripple 1s linear infinite;
+}
+
+@keyframes ripple{
+  0%{
+    width: 0px;
+    height: 0px;
+    opacity: 0.5;
+  }
+  
+  100%{
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+  }
+}
+  
