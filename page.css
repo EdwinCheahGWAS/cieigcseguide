@@ -52,7 +52,7 @@ body{
 .menu li a:active {
   background-color: #fff;
   background-size: 100%;
-  transition: background 0s;
+  transition: background 0.8s;
 }
 
 .subheading{
