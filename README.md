@@ -1,5 +1,6 @@
 👋 Hey there! 
 
 - 📝 This website takes notes in preparation for the IGCSE. 
-- ‍💻 It is made by HTML, CSS & Javascript
+- ‍💻 It with made by HTML, CSS & Javascript
+- 🌐 Check it out at cieigcseguide.vercel.app
 - 🎓 Made by Edwin Cheah
