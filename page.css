@@ -12,7 +12,7 @@ body{
   height: 100%;
 }
 
-.menu{
+ul{
   float: right;
   list-style-type: none;
   margin-top: 30px;
@@ -30,29 +30,19 @@ body{
   backdrop-filter: blur(5px);
   background: rgba(225,225,225,0.1);
   overflow: hidden;
-  background-position: center;
-  transition: background 1.2s;
 }
-
 .menu li a:hover{
+  background: linear-gradient(90deg,#755bea,#ff72c0);
   color: #fff;
   transition: 0.5s ease;
-  border-radius: 20px;
-  background: #755bea radial-gradient(circle, transparent 1%, #755bea 1%) center/15000%;
 }
 .container{
   max-width: 1500px;
   margin: auto;
 }
-
 .menu li.active a{
-  background-color: #755bea;
+  background: linear-gradient(90deg,#755bea,#ff72c0);
   color: #fff;
-}
-.menu li a:active {
-  background-color: #fff;
-  background-size: 100%;
-  transition: background 0s;
 }
 
 .subheading{
@@ -65,6 +55,11 @@ body{
 .subheading h1{
   color: #fff;
   font-size: 65px;
+  animation: type 1s steps(5);
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid white;
+  widht: 5ch;
 }
 
 .text{
@@ -193,5 +188,37 @@ body{
   
   100%{
     transform: translateY(-1000px) rotate(720deg);
+  }
+}
+
+span{
+  position: absolute;
+  background: #fff;
+  pointer-events: none;
+  border-radius: 50%;
+  animation: ripple 1s linear infinite;
+}
+
+@keyframes ripple{
+  0%{
+    width: 0px;
+    height: 0px;
+    opacity: 0.5;
+  }
+  
+  100%{
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+  }
+}
+
+@keyframes type{
+  0% {
+    width: 0ch;
+  }
+  
+  100% {
+    width: 5ch;
   }
 }
