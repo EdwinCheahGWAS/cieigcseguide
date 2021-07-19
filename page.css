@@ -40,6 +40,7 @@ body{
   border-radius: 20px;
   background: #755bea radial-gradient(circle, transparent 1%, #755bea 1%) center/15000%;
 }
+
 .container{
   max-width: 1500px;
   margin: auto;
@@ -49,6 +50,7 @@ body{
   background-color: #755bea;
   color: #fff;
 }
+
 .menu li a:active {
   background-color: #fff;
   background-size: 100%;
