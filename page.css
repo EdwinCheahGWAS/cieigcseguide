@@ -60,7 +60,7 @@ body{
 }
 
 .subheading h1{
-  color: #fff;
+  color: #755bea;
   font-size: 65px;
   animation: type 1s steps(5);
   overflow: hidden;
@@ -184,10 +184,15 @@ body{
   
 @keyframes type{
   0% {
+    text-shadow: none;
     width: 0ch;
   }
 
   100% {
     width: 5ch;
+    color: #fff;
+    text-shadow: 0 0 5px #755bea,
+    0 0 10px #755bea,
+    0 0 20px #755bea;
   }
 }
