@@ -60,11 +60,15 @@ body{
 }
 
 .subheading h1{
-  color: #755bea;
   font-size: 65px;
   animation: type 1s steps(5);
   overflow: hidden;
   white-space: nowrap;
+  color: #fff;
+  text-shadow: 0 0 5px #755bea,
+  0 0 10px #755bea,
+  0 0 20px #755bea,
+  0 0 40px #755bea;
   border-right: 4px solid white;
   width: 5ch;
 }
@@ -186,13 +190,10 @@ body{
   0% {
     text-shadow: none;
     width: 0ch;
+    color: #755bea;
   }
 
   100% {
     width: 5ch;
-    color: #fff;
-    text-shadow: 0 0 5px #755bea,
-    0 0 10px #755bea,
-    0 0 20px #755bea;
   }
 }
