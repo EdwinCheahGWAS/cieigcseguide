@@ -112,19 +112,19 @@ body{
 }
 .circle li.purple{
   background: rgba(238,130,238,0.6);
-  box-shadow: 0 0 5px rgba(238,130,238, 0.6), 0 0 10px rgba(238, 130, 238, 0.6);
+  box-shadow: 0 0 5px rgba(238,130,238, 0.6), 0 0 10px rgba(238, 130, 238, 0.6), 0 0 20px rgba(238, 130, 238, 0.6), 0 0 40px rgba(238, 130, 238, 0.6);
 }
 .circle li.blue{
   background: rgba(64,224,208,0.3);
-  box-shadow: 0 0 5px rgba(64,224,208,0.3), 0 0 10px rgba(64,224,208,0.3);
+  box-shadow: 0 0 5px rgba(64,224,208,0.3), 0 0 10px rgba(64,224,208,0.3), 0 0 20px rgba(64,224,208,0.3), 0 0 40px rgba(64,224,208,0.3);
 }
 .circle li.red{
   background: rgba(205,92,92,0.5);
-  box-shadow: 0 0 5px rgba(205,92,92,0.5), 0 0 10px rgba(205,92,92,0.5);
+  box-shadow: 0 0 5px rgba(205,92,92,0.5), 0 0 10px rgba(205,92,92,0.5), 0 0 20px rgba(205,92,92,0.5), 0 0 40px rgba(205,92,92,0.5);
 }
 .circle li.pink{
   background: rgba(255,182,193,0.4);
-  box-shadow: 0 0 5px rgba(255,182,193,0.4), 0 0 10px rgba(255,182,193,0.4);
+  box-shadow: 0 0 5px rgba(255,182,193,0.4), 0 0 10px rgba(255,182,193,0.4), 0 0 20px rgba(255,182,193,0.4), 0 0 40px rgba(255,182,193,0.4);
 }
 .circle li:nth-child(1){
   left: 25%;
