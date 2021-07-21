@@ -111,8 +111,8 @@ body{
   bottom: -150px;
 }
 .circle li.purple{
-  background: rgba(255,255,255,0.6);
-  box-shadow: 0 0 5px rgba(238, 130, 238, 0.6), 0 0 10px rgba(238, 130, 238, 0.6);
+  background: rgba(238,130,238,0.6);
+  box-shadow: 0 0 5px rgba(238,130,238, 0.6), 0 0 10px rgba(238, 130, 238, 0.6);
 }
 .circle li.blue{
   background: rgba(64,224,208,0.3);
