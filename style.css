@@ -176,6 +176,7 @@ ul{
   transition: 0.5s ease;
   border-radius: 20px;
   background: #755bea radial-gradient(circle, transparent 1%, #755bea 1%) center/15000%;
+  box-shadow: 0 0px 10px rgba(117, 91, 234, 0.4), 0 0px 20px rgba(117, 91, 234, 0.4), 0 0px 40px rgba(117, 91, 234, 0.4);
 }
 
 .main{
