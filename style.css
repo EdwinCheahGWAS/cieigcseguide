@@ -115,7 +115,7 @@ body::after
 .container .card .content h3{
   font-size: 1.5em;
   color: #fff;
-  text-shadow: 0 0px 10px rgba(117, 91, 234, 0.4), 0 0px 20px rgba(117, 91, 234, 0.4), 0 0px 40px rgba(117, 91, 234, 0.4);
+  text-shadow: 0 0px 10px rgba(117, 91, 234, 0.4), 0 0px 20px rgba(117, 91, 234, 0.4), 0 0px 40px rgba(117, 91, 234, 0.4), 0 0px 80px rgba(117, 91, 234, 0.4), 0 0px 160px rgba(117, 91, 234, 0.4);
   z-index: 1;
   font-weight: 400;
 }
@@ -134,7 +134,7 @@ body::after
   border-radius: 20px;
   text-decoration: none;
   font-weight: 400;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.4)
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
 .container .card .content a:hover{
