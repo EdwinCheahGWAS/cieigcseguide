@@ -27,7 +27,7 @@
 }
 
 .tabs{
-  height: 120vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -111,13 +111,13 @@ body::after
   opacity: 1;
 }
 .container .card .content h3{
-  font-size: 1.8em;
+  font-size: 1.5em;
   color: #fff;
   z-index: 1;
   font-weight: 400;
 }
 .container .card .content p{
-  font-size: 1em;
+  font-size: 0.8em;
   color: #fff;
   font-weight: 200;
 }
