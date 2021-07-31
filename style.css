@@ -115,7 +115,7 @@ body::after
 .container .card .content h3{
   font-size: 1.5em;
   color: #fff;
-  text-shadow: 0 0px 10px rgba(117, 91, 234, 0.4);
+  text-shadow: 0 0px 10px rgba(117, 91, 234, 0.4), 0 0px 20px rgba(117, 91, 234, 0.4), 0 0px 40px rgba(117, 91, 234, 0.4);
   z-index: 1;
   font-weight: 400;
 }
