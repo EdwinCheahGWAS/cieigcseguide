@@ -9,6 +9,7 @@
 :root{
   --firstgradient: linear-gradient(
     45deg,
+    #755bea,
     #6dd5ed,
     #ffafbd,
     #753a88,
@@ -18,11 +19,12 @@
   
   --secondgradient: linear-gradient(
   45deg,
-  #1d2671,
-  #c33764,
-  #ff7e5f,
-  #ed4264,
-  #4e4376
+  #753a88,
+  #dc2430,
+  #36d1dc,
+  #753a88,
+  #dc2430,
+  #755bea
   );
 }
 
