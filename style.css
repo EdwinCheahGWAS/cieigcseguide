@@ -81,7 +81,7 @@ body::after
   flex-wrap: nowrap;
   z-index: 1;
   margin: auto;
-  height: 100%;
+  height: 100vh;
 }
 
 .container .card {
