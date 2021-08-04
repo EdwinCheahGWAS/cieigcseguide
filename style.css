@@ -254,3 +254,34 @@ ul{
   height: auto;
   z-index: 1;
 }
+
+@media (max-height:700px){
+  .container .card {
+  position: relative;
+  width: 240px;
+  height: 300px;
+  margin: 20px;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  border-radius: 15px;
+  background: rgba(225,225,225,0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(225,225,225,0.1);
+  border-left: 1px solid rgba(225,225,225,0.1);
+  backdrop-filter: blur(5px);
+  margin-top: 250px;
+  }
+  
+  .title h1{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  }
+}
+}
