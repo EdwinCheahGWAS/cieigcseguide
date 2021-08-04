@@ -285,3 +285,16 @@ ul{
   }
 }
 
+@media (max-width: 420px){
+  .container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 1;
+  margin: auto;
+  height: 100%;
+}
+}
