@@ -101,7 +101,7 @@ body::after
   border-top: 1px solid rgba(225,225,225,0.1);
   border-left: 1px solid rgba(225,225,225,0.1);
   backdrop-filter: blur(5px);
-  margin-top: 200px;
+  margin-top: 250px;
 }
 .container .card .content{
   padding: 20px;
@@ -201,7 +201,7 @@ ul{
   left: 50%;
   transform: translate(-50%,-50%);
   color: #fff;
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 600;
 }
 
