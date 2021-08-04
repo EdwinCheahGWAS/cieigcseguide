@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+l@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
 *{
   margin: 0;
   padding: 0;
@@ -84,6 +84,7 @@ body::after
   z-index: 1;
   margin: auto;
   height: 100%;
+  vertical-align: middle;
 }
 
 .container .card {
@@ -101,7 +102,6 @@ body::after
   border-top: 1px solid rgba(225,225,225,0.1);
   border-left: 1px solid rgba(225,225,225,0.1);
   backdrop-filter: blur(5px);
-  margin-top: 200px;
 }
 .container .card .content{
   padding: 20px;
