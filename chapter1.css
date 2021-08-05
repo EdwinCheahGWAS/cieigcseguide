@@ -407,7 +407,7 @@ body{
 .sidebar ul ul a{
   font-size: 17px;
   color: #fff;
-  padding-left: 80px;
+  padding-left: 60px;
 }
 
 .sidebar ul li a span {
@@ -456,3 +456,5 @@ body{
   border-top: 20px;
   border-bottom: 20px;
 }
+
+.text a
