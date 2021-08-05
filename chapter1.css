@@ -389,7 +389,7 @@ body{
 }
 
 .sidebar ul li a:hover{
-  color: #3b1acb;
+  color: #fff;
   background: rgba(0,0,0, 0.2);
   border-left-color: #3b1acb;
 }
@@ -416,7 +416,7 @@ body{
 }
 
 .sidebar ul li a:hover span{
-  color: #3b1acb;
+  color: #fff;
 }
 
 .sidebar ul li a span.rotate{
