@@ -455,6 +455,7 @@ body{
   background-color: #755bea;
   border-top: 20px;
   border-bottom: 20px;
+  margin-right: 50px;
 }
 .text a:hover{
 box-shadow: 0 0px 10px rgba(117, 91, 234, 0.4), 0 0px 20px rgba(117, 91, 234, 0.4), 0 0px 40px rgba(117, 91, 234, 0.4);
