@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chapter 10</title>
+   <link rel="stylesheet" type="text/css" href="/historypage.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" href="/favicon_io.zip">
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://kit.fontawesome.com/e4bd34b870.js"></script>
+</head>
+<body>
+    <header class="notes">
+    <div class="container">
+      <div class="logo">
+	<img src="./android-chrome-512x512.png" alt="logo">
+      </div>
+     <ul class="menu">
+       <li><a href="javascript:delay('URL')">Home</a></li>
+       <li class="active"><a href="#">Notes</a></li>
+       <li><a href="#">Study Tips</a></li>
+       <li><a href="#">About</a></li>
+     </ul>
+         <script type="text/javascript">
+	    function delay (URL) {
+    setTimeout( function() {window.location = 'https://cieigcseguide.vercel.app'}, 600 );
+               }
+	  </script>
+    </div>
+      <ul class="circle">
+        <li class="purple"></li>
+        <li class="blue"></li>
+        <li class="red"></li>
+        <li class="pink"></li>
+        <li class="purple"></li>
+        <li class="blue"></li>
+        <li class="red"></li>
+        <li class="pink"></li>
+      </ul>
+    <div class="textarea">
+      <h1 class="subheading">Other Reforms</h1>
+    </div>
+    <div class="textarea"><div class="text" style="text-align:left;">
+<strong>Reforms towards women</strong>
+<ul>
+  <li>Women were seen as equals to men under Communism</li>
+  <li>They played a big part in economic change</li>
+</ul>
+<br></br>
+<p>Policies towards women (new family law in 1936)</p>
+<ul>
+  <li>Divorce was made more difficult</li>
+  <li>Abortion (aside from medical reasons) was made illegal</li>
+  <li>Tax breaks (a reduction in taxes) for households with more children</li>
+</ul>
+<br></br>
+<p>Policies for women in the workplace</p>
+<ul>
+  <li>Free health care</li>
+  <li>Accident insurance</li>
+  <li>More nurseries for children so mothers could work</li>
+  <li>Paid holidays</li>
+  <li>"Sitting" services so mothers could care for their children during work </li>
+</ul>
+<br></br>
+<p>By 1939, women made up... </p>
+<ul>
+  <li>1/3 of all engineers</li>
+  <li>79% of doctors</li>
+  <li>43% of industrial workers</li>
+</ul>
+<br></br>
+<p>All these changees were not made with women's rights in mind, but instead the benefits of expanding the workforce. Women benefitted, but still faced discrimination and worked in lower positions, and were also expected to take care of housework. This left them with little time for education at higher levels. They also could not have high positions in Stalin's Party</p>
+<br></br>
+<strong>Stalin's reforms on ethnic minorities</strong>
+<ul>
+  <li>During Lenin's rule, Stalin was the Commissar of Foreign Nationalities and he was aware of the many different nationalities within Russia</li>
+  <li>However, Stalin saw these different nationalities as a barrier for development as the people were not united</li>
+  <li>Therefore, Stalin introduced Russification, forcing everyone to view themselves as Soviets, only speak Russian and adopt Russian customs as well</li>
+  <li>Learning Russian was now mandatory in all schools</li>
+  <li>Minorities were deported, and Stalin was hostile towards Jewish people</li>
+  <li>Non-Russian people in higher classes were removed from power</li>
+</ul>
+<br></br>
+<p>Success of Stalin's reforms</p>
+<ul>
+  <li>The famine in 1932 and WW2 caused losses in the non-Russian elites, and their positions of powers were left empty for Stalin to assign</li>
+  <li>Stalin could promote Russian nationalism as the winner over the Nazis</li>
+  <li>Millions of minorities left Russia</li>
+  <li>Moscow retained power and the other territories lost power to the USSR</li>
+</ul>
+<br></br>
+<p>However...</p>
+<ul>
+  <li>People still identified with their own nationalities, rejecting the view that they were Soviet, meaning that Stalin had to rely on the Purges to remove the non-Russian elite</li>
+  <li>The measures were unpopular, and some in Russia joined the Nazis in WW2</li>
+  <li>Cultural identity in rural areas remained strong</li>
+</ul>
+<br></br>
+<a href="https://cieigcseguide.vercel.app/c10s14.html"><span>↞</span> Previous Topic </a>
+<a href="https://cieigcseguide.vercel.app/c10s16.html">Next Topic <span>↠</span></a>
+<br></br>
+</div>
+      </div>
+
+          <div class="sections">
+          </div>
+
+          <nav class="sidebar">
+            <div class="chapters">Chapters</div>
+            <ul>
+              <li><a href="#" class="btn1">Chapter 1
+                <span class="fas fa-angle-down first"></span>
+              </a></li>
+              <ul class="show1">
+                <li><a href="https://cieigcseguide.vercel.app/chapter1.html">Motives and Aims of the Big Three</a></li>
+                <li><a href="#">Main Terms of the Treaty of Versailles</a></li>
+                <li><a href="#">Section 3</a></li>
+                <li><a href="#">Section 4</a></li>
+              </ul>
+              <li><a href="#" class="btn2">Chapter 2
+                <span class="fas fa-angle-down second"></span>
+              </a></li>
+              <ul class="show2">
+                <li><a href="#">Section 1</a></li>
+                <li><a href="#">Section 2</a></li>
+                <li><a href="#">Section 3</a></li>
+              </ul>
+              <li><a href="#" class="btn3">Chapter 3
+                <span class="fas fa-angle-down third"></span>
+              </a></li>
+              <li><a href="#" class="btn4">Chapter 4
+                <span class="fas fa-angle-down fourth"></span>
+              </a></li>
+              <li><a href="#" class="btn5">Chapter 5
+                <span class="fas fa-angle-down fifth"></span>
+              </a></li>
+              <li><a href="#" class="btn6">Chapter 6
+                <span class="fas fa-angle-down sixth"></span>
+              </a></li>
+              <li><a href="#" class="btn7">Chapter 7
+                <span class="fas fa-angle-down seventh"></span>
+              </a></li>
+              <li><a href="#" class="btn8">Chapter 8
+                <span class="fas fa-angle-down eighth"></span>
+              </a></li>
+            </ul>
+          </nav>
+
+          <script>
+          $('.btn1').click(function(){
+            $('nav ul .show1').toggleClass("show");
+            $('nav ul .first').toggleClass("rotate");
+          });
+
+          $('.btn2').click(function(){
+            $('nav ul .show2').toggleClass("show");
+            $('nav ul .second').toggleClass("rotate");
+          });
+        </script>
+  </header>
+  </body>
+</html>
