@@ -16,7 +16,7 @@
     #fa878e,
     #36d1dc
     );
-  
+
   --secondgradient: linear-gradient(
   45deg,
   #753a88,
@@ -31,7 +31,7 @@
 .tabs{
   height: 100%;
   width: 100%;
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
   align-items: center;
 }
@@ -75,12 +75,11 @@ body::after
 
 .container{
   position: relative;
-  display: flex;
-  flex-direction: row;
+  /*display: flex;
+  flex-direction: row;*/
   justify-content: center;
   align-items: center;
   max-width: 1200px;
-  flex-wrap: nowrap;
   z-index: 1;
   margin: auto;
   height: 100%;
@@ -88,8 +87,11 @@ body::after
 
 .container .card {
   position: relative;
-  width: 288px;
-  height: 360px;
+ /* width: 288px;
+  height: 360px;*/
+  width:calc(33% - 40px);
+  height:45vh;
+  float:left;
   margin: 20px;
   box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
   border-radius: 15px;
@@ -101,13 +103,13 @@ body::after
   border-top: 1px solid rgba(225,225,225,0.1);
   border-left: 1px solid rgba(225,225,225,0.1);
   backdrop-filter: blur(5px);
-  margin-top: 250px;
+
 }
 .container .card .content{
   padding: 20px;
   text-align: center;
   transform: translateY(10px);
-  opacity: 0.3;
+  opacity: 0.8;
   transition: 0.5s
 }
 .container .card:hover .content{
@@ -152,11 +154,11 @@ body::after
   transition: background 0s;
 }
 
-ul{
+.menu{
   float: right;
   list-style-type: none;
   margin-top: 30px;
-  margin-right:20px;
+  margin-right: 20px;
 }
 .menu li{
   display: inline-block;
@@ -164,13 +166,14 @@ ul{
 .menu li a{
   text-decoration: none;
   color: #fff;
-  padding: 10px 40px;
+  padding: 1vh 2vw;
   border: 1px solid transparent;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.4);
   backdrop-filter: blur(5px);
   background: rgba(225,225,225,0.1);
   overflow: hidden;
+  font-size: 0.9em;
 }
 
 .menu li a:hover{
@@ -195,14 +198,30 @@ ul{
   transition: background 0s;
 }
 
+.title {
+	display:block;
+	position: relative;
+
+	text-align:center;
+	margin-top:5vh;
+	margin-bottom:0vh;
+	  margin-left: auto;
+  margin-right: auto;
+  height:25vh;
+}
 .title h1{
   position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  top: 0%;
+  left: 0%;
+  /*transform: translate(-50%,-50%);*/
+  /*margin-left: auto;
+  margin-right: auto; */
   color: #fff;
-  font-size: 70px;
+  font-size: 6vw;
   font-weight: 600;
+  display:block;
+  width:100%;
+
 }
 
 .title h1:nth-child(1){
@@ -257,7 +276,7 @@ ul{
 
 @media (max-height:700px){
   .container .card {
-  position: relative;
+  /*position: relative;
   width: 240px;
   height: 300px;
   margin: 20px;
@@ -271,23 +290,37 @@ ul{
   border-top: 1px solid rgba(225,225,225,0.1);
   border-left: 1px solid rgba(225,225,225,0.1);
   backdrop-filter: blur(5px);
-  margin-top: 150px;
+  margin-top: 150px;*/
   }
-  
+
   .title h1{
-  position: absolute;
+  /*position: absolute;
   top: 25%;
   left: 50%;
   transform: translate(-50%,-50%);
   color: #fff;
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 600;*/
   }
+}
+
+@media (max-width: 700px){
+	.container .card {
+	  width:60%;
+	  margin-left:20%;
+	  margin-right:20%;
+  	}
+
+  	.title {
+		margin-top:1vh;
+		margin-bottom:1vh;
+		height: 10vh;
+	}
 }
 
 @media (max-width: 420px){
   .container{
-  position: relative;
+  /*position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -295,11 +328,18 @@ ul{
   flex-wrap: wrap;
   z-index: 1;
   margin: auto;
-  height: 100%;
-}
-  
+  height: 100%;*/
+	}
+
+
+
   .container .card {
-  position: relative;
+
+  width:80%;
+	  margin-left:10%;
+	  margin-right:10%;
+
+  /*position: relative;
   width: 288px;
   height: 360px;
   margin: 10px;
@@ -312,17 +352,23 @@ ul{
   align-items: center;
   border-top: 1px solid rgba(225,225,225,0.1);
   border-left: 1px solid rgba(225,225,225,0.1);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);*/
 }
-  
+
+  .title {
+		margin-top:5vh;
+		margin-bottom:0vh;
+		height: 5vh;
+	}
+
   .title h1{
-  position: absolute;
+ /* position: absolute;
   top: 25%;
   left: 50%;
   transform: translate(-50%,-50%);
   color: #fff;
   font-size: 30px;
   font-weight: 600;
-  margin-bottom: 100px;
+  margin-bottom: 100px;*/
   }
 }
