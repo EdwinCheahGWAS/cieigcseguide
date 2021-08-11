@@ -123,9 +123,13 @@ nav .fa{
   
     .menupages ul li a{
     color: #fff;
-    font-size: 25px;
+    font-size: 40px !important;
     }
+  
+    .bts-col p{
+    font-size: 40px;
   }
+ }
 
 .bts{
   width: 80%;
