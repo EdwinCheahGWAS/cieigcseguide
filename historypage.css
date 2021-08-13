@@ -506,8 +506,8 @@ box-shadow: 0 0px 10px rgba(117, 91, 234, 0.4), 0 0px 20px rgba(117, 91, 234, 0.
 
 table td{
   border: 2px solid #fff;
-  font-size: 16px;
-  padding: 10px;
+  font-size: 1.5vw;
+  padding: 0.5w;
 }
 
 table thead{
