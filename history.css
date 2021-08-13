@@ -237,6 +237,7 @@ body{
   border-radius: 30px;
   margin: 1.3vw;
   float: left;
+  min-height: 100%
 }
 
 .sections .chapter:before {
@@ -325,9 +326,12 @@ body{
   position: absolute;
   left: 20%;
   top: 100%;
-  min-height: 10%;
+  width: 80%;
 }
 
+.sections2.chapter{
+  min-height: 10%;
+}
 .sections .chapter:hover a{
   position: relative;
   display: inline-block;
