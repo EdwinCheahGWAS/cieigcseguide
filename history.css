@@ -8,10 +8,10 @@
 body{
   background: #00214d;
   width: 100%;
-  height: 100%;
-  display: flex;
+  height: 150vw;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 .menu{
   float: right;
@@ -25,13 +25,14 @@ body{
 .menu li a{
   text-decoration: none;
   color: #fff;
-  padding: 10px 40px;
+  padding: 1vh 2vw;
   border: 1px solid transparent;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.4);
   backdrop-filter: blur(5px);
   background: rgba(225,225,225,0.1);
   overflow: hidden;
+  font-size: 0.9em;
 }
 
 .menu li a:hover{
@@ -55,17 +56,16 @@ body{
   background-size: 100%;
   transition: background 0s;
 }
-
 .subheading{
   position: absolute;
-  top: 30%;
+  top: 20vw;
   left: 50%;
   transform: translate(-50%,-50%);
 }
 
 .subheading h1{
-  font-size: 65px;
-  animation: type 1s steps(7);
+  font-size: 5vw;
+  animation: type 1s steps(5);
   overflow: hidden;
   white-space: nowrap;
   color: #fff;
@@ -74,17 +74,17 @@ body{
   0 0 20px #755bea,
   0 0 40px #755bea;
   border-right: 4px solid white;
-  width: 5.5ch;
+  width: 6ch;
   font-weight: 300;
 }
 
 .text{
   position: absolute;
-  top: 60%;
+  top: 35vw;
   left: 50%;
   transform: translate(-50%,-50%);
-  font-size: 22px;
-  width: 1000px;
+  font-size: 2vw;
+  width: 75vw;
   font-family: 'Poppins', sans-serif;
   color: #fff;
 }
@@ -101,7 +101,7 @@ body{
   top: 0%;
   left: 0%;
   width: 100%;
-  height: 200%;
+  height: 150vw;
   overflow: hidden;
   z-index: -10;
 }
@@ -206,38 +206,38 @@ body{
   }
 
   100% {
-    width: 5ch;
+    width: 6ch;
   }
 }
 
 .parts{
-  margin-top: 30%;
+  position: absolute;
+  margin-top: 45vw;
+  max-width: 100%;
 }
 
 .sections{
-  display: flex;
+  position: relative;
+  float: left;
   justify-content: center;
   align-items: center;
   min-height: 100%;
-  width: 1100px;
-  flex-direction: row;
-  margin: 30px;
-  margin-left: 15px;
-  margin-right: 15px;
+  max-width: 1500px;
+  margin: auto;
+  width: 100%;
 }
 
 .sections .chapter{
   position: relative;
-  width: 320px;
-  height: 320px;
+  width: 30.7vw;
+  height: 30.7vw;
   background: #00008B;
-  padding: 100px 40px 60px;
+  padding: 4.5vw 3vw 4.5vw;
   box-shadow: 0 15px 45px rgba(117, 91, 234, 0.3);
   z-index: 1;
   border-radius: 30px;
-  margin: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin: 1.3vw;
+  float: left;
 }
 
 .sections .chapter:before {
@@ -263,9 +263,8 @@ body{
 
 .sections .chapter h2{
   position: absolute;
-  left: 40px;
-  top: 60px;
-  font-size: 4em;
+  top: 6vw;
+  font-size: 6vw;
   font-weight: 800;
   opacity: 0.3;
   transition: 0.5;
@@ -276,15 +275,16 @@ body{
 .sections .chapter:hover h2{
   opacity: 1;
   color: #fff;
-  transform: translateY(-40px);
+  transform: translateY(-4vw);
 }
 
 .sections .chapter h3{
   position: relative;
-  font-size: 1.5em;
+  font-size: 2.5vw;
   color: #755bea;
   transition: 0.5s;
   z-index: 3;
+  top: 5.3vw;
 }
 
 .sections .chapter p{
@@ -292,6 +292,8 @@ body{
   color: #755bea;
   transition: 0.5s;
   z-index: 3;
+  font-size: 1.3vw;
+  top: 6vw;
 }
 
 .sections .chapter:hover h3{
@@ -307,28 +309,31 @@ body{
 .sections .chapter a{
   position: relative;
   display: inline-block;
-  padding: 8px 20px;
-  margin-top: 10px;
+  padding: 0.25vw 1vw;
   background: #755bea;
   color: #fff;
   border-radius: 20px;
   text-decoration: none;
   font-weight: 400;
   box-shadow: 0 10px 30px rgba(238,130,238,0.4);
-  z-index: 3
+  z-index: 3;
+  top: 6.5vw;
+  font-size: 2vw;
 }
 
+.sections2{
+  margin-left: 20%;
+}
 
 .sections .chapter:hover a{
   position: relative;
   display: inline-block;
-  padding: 8px 20px;
-  margin-top: 10px;
+  padding: 0.25vw 1vw;
   background: #fff;
   color: #755bea;
   border-radius: 20px;
   text-decoration: none;
   font-weight: 400;
   box-shadow: 0 10px 30px rgba(238,130,238,0.4);
-  z-index: 3
+  z-index: 3;
 }
