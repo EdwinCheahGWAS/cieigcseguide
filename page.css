@@ -335,3 +335,7 @@ body{
   box-shadow: 0 10px 30px rgba(238,130,238,0.4);
   z-index: 3;
 }
+
+.section1{
+  margin-left: 16.5vw;
+}
