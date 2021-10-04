@@ -8,7 +8,7 @@
 body{
   background: #00214d;
   width: 100%;
-  height: 100%;
+  height: 140%;
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -101,7 +101,7 @@ body{
   top: 0%;
   left: 0%;
   width: 100%;
-  height: 100%;
+  height: 125vw;
   overflow: hidden;
   z-index: -10;
 }
@@ -206,7 +206,7 @@ body{
   }
 
   100% {
-    width: 5ch;
+    width: 6ch;
   }
 }
 
@@ -221,7 +221,6 @@ body{
   float: left;
   justify-content: center;
   align-items: center;
-  min-height: 100%;
   max-width: 1500px;
   margin: auto;
   width: 100%;
@@ -238,6 +237,7 @@ body{
   border-radius: 30px;
   margin: 1.3vw;
   float: left;
+  min-height: 100%
 }
 
 .sections .chapter:before {
@@ -263,7 +263,7 @@ body{
 
 .sections .chapter h2{
   position: absolute;
-  top: 6.3vw;
+  top: 6vw;
   font-size: 6vw;
   font-weight: 800;
   opacity: 0.3;
@@ -280,7 +280,7 @@ body{
 
 .sections .chapter h3{
   position: relative;
-  font-size: 3vw;
+  font-size: 2.5vw;
   color: #755bea;
   transition: 0.5s;
   z-index: 3;
@@ -292,7 +292,7 @@ body{
   color: #755bea;
   transition: 0.5s;
   z-index: 3;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   top: 6vw;
 }
 
@@ -309,8 +309,7 @@ body{
 .sections .chapter a{
   position: relative;
   display: inline-block;
-  padding: 0.5vw 1.25vw;
-  margin-top: 10px;
+  padding: 0.25vw 1vw;
   background: #755bea;
   color: #fff;
   border-radius: 20px;
@@ -318,15 +317,25 @@ body{
   font-weight: 400;
   box-shadow: 0 10px 30px rgba(238,130,238,0.4);
   z-index: 3;
-  top: 7vw;
+  top: 6.5vw;
+  font-size: 2vw;
 }
 
 
+.sections2{
+  position: absolute;
+  left: 17%;
+  top: 100%;
+  width: 80%;
+}
+
+.sections2.chapter{
+  min-height: 10%;
+}
 .sections .chapter:hover a{
   position: relative;
   display: inline-block;
-  padding: 0.5vw 1.25vw;
-  margin-top: 10px;
+  padding: 0.25vw 1vw;
   background: #fff;
   color: #755bea;
   border-radius: 20px;
@@ -334,8 +343,4 @@ body{
   font-weight: 400;
   box-shadow: 0 10px 30px rgba(238,130,238,0.4);
   z-index: 3;
-}
-
-.section1{
-  margin-left: 16.5vw;
 }
