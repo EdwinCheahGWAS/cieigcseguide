@@ -235,7 +235,7 @@ body{
   box-shadow: 0 15px 45px rgba(117, 91, 234, 0.3);
   z-index: 1;
   border-radius: 30px;
-  margin: 1.2vw;
+  margin: 1vw;
   float: left;
   min-height: 100%
 }
