@@ -230,7 +230,7 @@ body::after
 }
 
 .title h1:nth-child(2){
-  animation: animate 4s ease-in-out infinite, color 4s ease-in-out infinite;
+  animation: animate 4s ease-in-out infinite, color 10s ease-in-out infinite;
 }
 
 @keyframes animate{
