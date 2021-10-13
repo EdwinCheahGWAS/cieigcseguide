@@ -178,8 +178,7 @@ body::after
 .menu li a:hover{
   color: #fff;
   transition: 0.5s ease;
-  border-radius: 20px;
-  background: #755bea radial-gradient(circle, transparent 1%, #755bea 1%) center/15000%;
+  animation: bg-color 10s ease-in-out infinite;
   box-shadow: 0 0px 10px rgba(117, 91, 234, 0.4), 0 0px 20px rgba(117, 91, 234, 0.4), 0 0px 40px rgba(117, 91, 234, 0.4);
 }
 
@@ -188,7 +187,7 @@ body::after
   margin: auto;
 }
 .menu li.active a{
-  background-color: #755bea;
+  animation: bg-color 10s ease-in-out infinite;
   color: #fff;
 }
 .menu li a:active {
