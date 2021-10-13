@@ -134,7 +134,7 @@ body::after
   padding: 8px 20px;
   margin-top: 15px;
   color:#fff;
-  animation: color 10s ease-in-out infinite;
+  animation: bg-color 10s ease-in-out infinite;
   border-radius: 20px;
   text-decoration: none;
   font-weight: 400;
@@ -145,7 +145,6 @@ body::after
   color: #fff;
   transition: 0.5s ease;
   border-radius: 20px;
-  background: #755bea radial-gradient(circle, transparent 1%, #755bea 1%) center/15000%;
 }
 
 .container .card .content a:active{
@@ -250,6 +249,16 @@ body::after
     40%{color:#ffafbd;}
 	60%{color:  #753a88d;}
 	80%{color: #fa878e;}
+}
+
+@keyframes bg-color{
+0%, 100%{
+	background: #755bea;
+	}
+	20%{background:#6dd5ed;}
+    40%{background:#ffafbd;}
+	60%{background:  #753a88d;}
+	80%{background: #fa878e;}
 }
 
 .subheading{
