@@ -133,8 +133,8 @@ body::after
   display: inline-block;
   padding: 8px 20px;
   margin-top: 15px;
-  background: #755bea;
-  color: #fff;
+  color:#fff;
+  animation: color 10s ease-in-out infinite;
   border-radius: 20px;
   text-decoration: none;
   font-weight: 400;
