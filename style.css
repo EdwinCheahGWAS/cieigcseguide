@@ -119,7 +119,7 @@ body::after
 .container .card .content h3{
   font-size: 1.5em;
   color: #fff;
-  text-shadow: 0 0px 10px rgba(117, 91, 234, 0.4), 0 0px 20px rgba(117, 91, 234, 0.4), 0 0px 40px rgba(117, 91, 234, 0.4), 0 0px 80px rgba(117, 91, 234, 0.4), 0 0px 160px rgba(117, 91, 234, 0.4);
+  
   z-index: 1;
   font-weight: 400;
 }
@@ -260,6 +260,20 @@ body::after
 	60%{background:  #753a88d;}
 	80%{background: #fa878e;}
 }
+
+@keyframes shadow-color{
+0%, 100%{
+	text-shadow: 0 0px 10px rgba(117, 91, 234, 0.4), 0 0px 20px rgba(117, 91, 234, 0.4), 0 0px 40px rgba(117, 91, 234, 0.4), 0 0px 80px rgba(117, 91, 234, 0.4), 0 0px 160px rgba(117, 91, 234, 0.4);
+	}
+	
+	20%{text-shadow: 0 0px 10px rgba(109,213,237, 0.4), 0 0px 20px rgba(109,213,237, 0.4), 0 0px 40px rgba(109,213,237, 0.4), 0 0px 80px rgba(109,213,237, 0.4), 0 0px 160px rgba(109,213,237, 0.4);}
+    40%{text-shadow: 0 0px 10px rgba(255,175,189, 0.4), 0 0px 20px rgba(255,175,189, 0.4), 0 0px 40px rgba(255,175,189, 0.4), 0 0px 80px rgba(255,175,189, 0.4), 0 0px 160px rgba(255,175,189, 0.4);}
+	
+	
+	60%{text-shadow: 0 0px 10px rgba(117, 58, 136,0.4), 0 0px 20px rgba(117, 58, 136,0.4), 0 0px 40px rgba(117, 58, 136,0.4), 0 0px 80px rgba(117, 58, 136,0.4), 0 0px 160px rgba(117, 58, 136,0.4); }
+	80%{background: 0 0px 10px rgba(250, 135, 142,0.4), 0 0px 20px rgba(250, 135, 142,0.4), 0 0px 40px rgba(250, 135, 142,0.4), 0 0px 80px rgba(250, 135, 142,0.4), 0 0px 160px rgba(250, 135, 142,0.4);}
+}
+
 
 .subheading{
   position: absolute;
