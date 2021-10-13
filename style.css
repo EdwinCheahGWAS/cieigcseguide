@@ -119,7 +119,7 @@ body::after
 .container .card .content h3{
   font-size: 1.5em;
   color: #fff;
-  
+  animate: shadow-color 10s ease-in-out infinite;
   z-index: 1;
   font-weight: 400;
 }
