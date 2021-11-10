@@ -516,5 +516,5 @@ table thead{
 
 .link a{
   padding: 0; 
-  background: transparent;
+  background: transparent !important;
 }
