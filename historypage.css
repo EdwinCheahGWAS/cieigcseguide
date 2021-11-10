@@ -513,3 +513,8 @@ table td{
 table thead{
   background-color: #755bea;
 }
+
+.link a{
+  padding: 0; 
+  background: transparent;
+}
