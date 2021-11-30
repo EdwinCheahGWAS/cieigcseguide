@@ -79,7 +79,6 @@ body::after
   flex-direction: row;*/
   justify-content: center;
   align-items: center;
-  max-width: 1200px;
   z-index: 1;
   margin: auto;
   height: 100%;
@@ -183,7 +182,6 @@ body::after
 }
 
 .main{
-  max-width: 1500px;
   margin: auto;
 }
 .menu li.active a{
